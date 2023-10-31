@@ -1,6 +1,10 @@
 -- Setting the leader key
 vim.g.mapleader = " "
 
+-- Util
+
+vim.keymap.set("n", "<leader>ef", vim.cmd.Ex, {})
+
 -- Telescope
 
 local telescopeBuiltin = require("telescope.builtin")
