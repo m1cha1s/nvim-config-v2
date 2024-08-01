@@ -1,7 +1,7 @@
 local DARK  = true
-local WHITE = false
+local LIGHT = false
 
-local theme_mode = WHITE
+local theme_mode = LIGHT
 
 local function SetTheme()
     if not theme_mode then
