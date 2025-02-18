@@ -3,6 +3,7 @@ return {
 	{ 'nvim-telescope/telescope.nvim', tag = '0.1.3', dependencies = { 'nvim-lua/plenary.nvim' }},
     -- Theme
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    { "rose-pine/neovim", name = "rose-pine"},
     -- LSP
     {"VonHeikemen/lsp-zero.nvim", branch="v3.x"},
     {'williamboman/mason.nvim'},

@@ -11,9 +11,16 @@ local function SetTheme()
     end
 end
 
-require("catppuccin").setup({
-	flavour=SetTheme(),
-	transparent_background=true,
-})
+if false then
+    require("catppuccin").setup({
+        flavour=SetTheme(),
+        transparent_background=true,
+    })
+else
+    require("rose-pine").setup({
+        variant = "auto",
+        dark_variant = "main",
+    })
+end
 
-vim.cmd.colorscheme("catppuccin")
+vim.cmd.colorscheme("rose-pine")
