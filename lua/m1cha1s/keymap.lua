@@ -14,7 +14,7 @@ vim.keymap.set("n", "<leader>fb", telescopeBuiltin.buffers, {})
 vim.keymap.set("n", "<leader>fh", telescopeBuiltin.help_tags, {})
 
 -- LSP
-
+--[[
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
 
@@ -38,4 +38,4 @@ cmp.setup({
         {name= "buffer"},
     },
 })
-
+--]]
